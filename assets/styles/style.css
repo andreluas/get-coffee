@@ -22,6 +22,9 @@ nav {
     height: 75px;
     margin-bottom: 10%;
     box-shadow: 10px 2px 9px -5px rgba(168, 168, 168, 0.82);
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 a {
@@ -58,16 +61,14 @@ main {
     flex-wrap: nowrap;
 }
 
-.make-your-order {
-    width: 600px !important; 
-    margin: auto;
-}
-
 .wrapper {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -40%);
+    width: 960px;
+    z-index: -1;
+    background-color: red;
 }
 
 .scroll {
