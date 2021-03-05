@@ -59,6 +59,8 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper {
@@ -66,9 +68,8 @@ main {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
-    width: 960px;
+    width: 62%;
     z-index: -1;
-    background-color: red;
 }
 
 .scroll {
