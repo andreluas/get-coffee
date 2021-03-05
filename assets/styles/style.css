@@ -39,15 +39,46 @@ button {
     height: 40px;
     width: 220px;
     border-radius: 4px;
-    margin: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .logo {
     cursor: pointer;
 }
 
+.social-media > img {
+    margin-left: 10px;
+}
+
 main {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
+.make-your-order {
+    width: 600px !important; 
+    margin: auto;
+}
+
+.wrapper {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.scroll {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+}
+
+.scroll > p {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
