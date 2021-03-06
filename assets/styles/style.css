@@ -76,11 +76,25 @@ main {
     position: absolute;
     text-align: center;
     left: 50%;
-    top: 80%;
-    transform: translate(-50%, -80%);
+    top: 85%;
+    transform: translate(-50%, -85%);
 }
 
 .scroll > p {
     font-weight: 700;
     margin-bottom: 10px;
+}
+
+.img-one {
+    position: fixed;
+    top: 20%;
+    left: 2.5%;
+    z-index: -1;
+}
+
+.img-two {
+    position: fixed;
+    top: 7%;
+    right: -1%;
+    z-index: -1;
 }
