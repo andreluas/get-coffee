@@ -82,3 +82,11 @@ Design criado por <a href="https://www.linkedin.com/in/lucianesantcs/">Luciane S
 - <a href="https://www.linkedin.com/company/devchallenge/">Linkedin</a>
 - <a href="https://twitter.com/dev_challenge">Twitter</a>
 - <a href="https://www.instagram.com/devchallenge/">Instagram</a>
+
+---
+# My Solutions :tada:
+## Desktop
+![desktop](design/solutions/desktop.PNG)
+
+## Mobile
+![mobile](design/solutions/mobile.PNG)
