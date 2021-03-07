@@ -40,7 +40,11 @@
 
     .social-media {
         position: relative;
-        top: 250px;
+        top: 200px;
+    }
+
+    .make-your-order {
+        height: 80vh;            
     }
 
     h1 {
@@ -56,9 +60,13 @@
 
     .img-two {
         height: 450px;
-        margin-top: 382px;
+        margin-top: 440px;
         margin-right: -180px;
         display: inherit !important;
+    }
+
+    * {
+        overflow: hidden;
     }
 }
 
